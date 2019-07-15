@@ -1,0 +1,96 @@
+$primary: rgba(255, 255, 255, 0.3);
+$lowprimary: #8191A5;
+$secondary: #D88291;
+$lowsecondary: #BF8A7E;
+$back-color: #EFF1F2;
+$text-color: #2c3e50;
+
+
+html {
+  height: 100%;
+}
+body {
+  background-attachment: fixed;
+  background-image: linear-gradient(to bottom right, $back-color, $lowsecondary); 
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+p {
+  font-size: 20px;
+}
+h1 {
+  color: $secondary;
+  margin-bottom: 15px;
+}
+h5 {
+  color: $secondary;
+  margin-left: 10px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+.box {
+  background-color: $primary;
+  padding: 100px;
+  border-radius: 1em;
+ 
+}
+.mainBack {
+  @extend .box;
+  background: url('../img/intro.jpeg');
+  opacity: 0.3;
+}
+.logo {
+  margin: 20px;
+  position: relative;
+  text-align: center;
+  width: 50px;
+  :hover {
+    cursor: pointer;
+  }
+}
+.mi-btn {
+  background-color: $lowprimary;
+  border: 0;
+  border-radius: 1em; 
+  color: $text-color;
+  margin: 20px;
+  padding: 15px;
+  text-decoration: none
+}
+.s-btn {
+  background-color: $lowprimary;
+  border: 0;
+  border-radius: 1em; 
+  margin: 20px;
+  padding: 15px;
+  color: $text-color;
+}
+.s-btn:hover{
+  color: $secondary;
+  transition: color 0.3s ease;
+} 
+.s-btn-sm {
+  background-color: $lowprimary;
+  border: 0;
+  border-radius: 1em; 
+  color: $text-color;
+  font-family: 'Avenir';
+  margin: 0 0 15px 15px;
+  padding: 10px;
+}
+.s-btn-sm:hover {
+  color: $secondary;
+  font-size: 15px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.s-card {
+  background-color: $primary;
+  border-radius: 1em;
+  margin-bottom: 10px; 
+}
+.small-text {
+  font-size: 15px;
+}

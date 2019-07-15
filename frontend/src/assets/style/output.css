@@ -1,0 +1,102 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-attachment: fixed;
+  background-image: linear-gradient(to bottom right, #EFF1F2, #BF8A7E);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+  font-size: 20px;
+}
+
+h1 {
+  color: #D88291;
+  margin-bottom: 15px;
+}
+
+h5 {
+  color: #D88291;
+  margin-left: 10px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.box, .mainBack {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 100px;
+  border-radius: 1em;
+}
+
+.mainBack {
+  background: url("../img/intro.jpeg");
+  opacity: 0.3;
+}
+
+.logo {
+  margin: 20px;
+  position: relative;
+  text-align: center;
+  width: 50px;
+}
+.logo :hover {
+  cursor: pointer;
+}
+
+.mi-btn {
+  background-color: #8191A5;
+  border: 0;
+  border-radius: 1em;
+  color: #2c3e50;
+  margin: 20px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.s-btn {
+  background-color: #8191A5;
+  border: 0;
+  border-radius: 1em;
+  margin: 20px;
+  padding: 15px;
+  color: #2c3e50;
+}
+
+.s-btn:hover {
+  color: #D88291;
+  transition: color 0.3s ease;
+}
+
+.s-btn-sm {
+  background-color: #8191A5;
+  border: 0;
+  border-radius: 1em;
+  color: #2c3e50;
+  font-family: "Avenir";
+  margin: 0 0 15px 15px;
+  padding: 10px;
+}
+
+.s-btn-sm:hover {
+  color: #D88291;
+  font-size: 15px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.s-card {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 1em;
+  margin-bottom: 10px;
+}
+
+.small-text {
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=output.css.map */
